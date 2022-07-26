@@ -7,3 +7,7 @@ from django.views.decorators.cache import cache_control
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def index(request):
     return render(request,'landing.html')
+
+def login(request):
+    log="login"
+    return render(request,'login.html',{'l':log})

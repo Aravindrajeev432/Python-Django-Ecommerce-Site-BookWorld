@@ -33,9 +33,19 @@
         <div class="container-fluid hbox">
             <div class="row flex-row-reverse">
                 <div class="lrbox d-flex">
-                    <div class="lbox">
-                        <i class="fa-solid fa-user"></i>&nbsp;&nbsp;  Log In
+                    
+                      
+                      <!-- {{ lg }} -->
+                     {% if l %}
+                      
+                      {% else %}
+                      <div class="lbox">
+                      <i class="fa-solid fa-user"></i>&nbsp;&nbsp; Log In
                     </div>
+                     {% endif %}
+                     
+                      
+                     
                     <div class="lbox">
                         <i class="fa-solid fa-lock"></i>&nbsp;&nbsp;  Register
                    
