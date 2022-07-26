@@ -1,4 +1,26 @@
+
 {% extends 'index.html' %}
+{% load static %}
 {% block content %}
-<h1>Landing</h1>
+
+<div class="container-fluid banner">
+    <img src="{% static 'Blog-Banner-Image-1000x300-Arapahoe-Libraries-3.png' %}" class="img-fluid img_banner" alt="...">
+</div>
+
+
+{% endblock %}
+{% block book %}
+<div class="container-fluid genre_selection">
+    <div class="row">
+        <div class="gen">
+        <ul>
+            <li class="active">SEE ALL</li>
+            <li>Sci-Fi</li>
+            <li>Folktale</li>
+            <li>Fiction</li>
+        </ul>
+</div>
+    </div>
+    
+</div>
 {% endblock %}

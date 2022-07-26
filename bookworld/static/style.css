@@ -50,3 +50,36 @@ a.navbar-brand {
     justify-content: space-evenly;
 }
 }
+.banner{
+
+display: flex;
+justify-content: center;
+padding-top:30px;
+}
+.img_banner{
+    object-fit:contain;
+}
+.container-fluid.genre_selection {
+   
+    justify-content: center;
+}
+
+
+
+ul{
+    display:inline-flex;
+}
+li{
+    list-style-type:none;
+   width:90px;
+    font-family:Roboto;
+    font-size:15px;
+    color:#5a5a5a;
+}
+li.active{
+    color:#F1AA09;
+}
+.gen {
+    display: flex;
+    justify-content: center;
+}
